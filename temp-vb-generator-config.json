@@ -1,0 +1,78 @@
+{
+  "vb": "1.0.0",
+  "timestamp": 1626767699394,
+  "settings": {
+    "authProvider": "jwt",
+    "logo": "Visual Builder",
+    "version": "fluent",
+    "theme": "default",
+    "locale": "en-US",
+    "isSidebarOpen": false,
+    "isSupportChatOpen": false,
+    "isMobileView": false,
+    "isMobileMenuOpen": false,
+    "isMenuCollapsed": false,
+    "isPreselectedOpen": false,
+    "preselectedVariant": "default",
+    "menuLayoutType": "left",
+    "routerAnimation": "slide-fadein-up",
+    "menuColor": "gray",
+    "authPagesColor": "gray",
+    "isAuthTopbar": true,
+    "primaryColor": "#4b7cf3",
+    "leftMenuWidth": 256,
+    "isMenuUnfixed": false,
+    "isMenuShadow": false,
+    "isTopbarFixed": false,
+    "isTopbarSeparated": false,
+    "isGrayTopbar": false,
+    "isContentMaxWidth": false,
+    "isAppMaxWidth": false,
+    "isGrayBackground": false,
+    "isCardShadow": true,
+    "isSquaredBorders": false,
+    "isBorderless": false,
+    "layoutMenu": "classic",
+    "layoutTopbar": "v1",
+    "layoutBreadcrumbs": "v1",
+    "layoutFooter": "v1",
+    "flyoutMenuType": "flyout",
+    "flyoutMenuColor": "blue"
+  },
+  "config": [
+    { "key": "__dashboard", "title": "Dashboard", "url": "/dashboard", "icon": "fe fe-home" }
+  ],
+  "content": {
+    "__dashboard": [
+      {
+        "key": "9wf18c",
+        "columns": [
+          {
+            "key": "9qc6v",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "nboug",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "ahgetkg",
+                    "name": "Headers-Heading2",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": {
+                      "title": "Header with description",
+                      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    }
+                  },
+                  { "key": "0v6gpa", "name": "WidgetsTables-4" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
